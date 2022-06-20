@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/combotext1"
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="25sp"
+                android:layout_marginStart="25sp"
+                android:text="Select Prefered Location: "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="149dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="25sp"
+                android:layout_marginBottom="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.816"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.295"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/backd"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="225sp"
+                android:text="Search" />
+
+
+            <ImageView
+                android:id="@+id/khushipg1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/pg1" />
+
+            <TextView
+                android:id="@+id/rent1text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="\nLocation: Navi Mumbai"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rent1owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="\nOwner : Esha Ahuja"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rent1contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="\nContact : 45459876354"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/dadar3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/mumbai4" />
+
+            <TextView
+                android:id="@+id/rentdadar4text"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginStart="15sp"
+                android:text="Location: Mumbai"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rentdadar4owner"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginStart="15sp"
+                android:text="Owner : Mahek Wadhwa \t\tContact : 7764510986"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/khushipg2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/pg2" />
+
+            <TextView
+                android:id="@+id/rent2text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="Location: Mahim"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rent2owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="Owner : Anjali Makhija \t\t\tContact : 45459876354"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/khushipg3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/pg3" />
+
+            <TextView
+                android:id="@+id/rent3text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="Location: Byculla"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rent3owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="Owner : Nilesh Mirgh \t \t \t\t\t\tContact : 45459876354"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/khushipg4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/pg4" />
+
+            <TextView
+                android:id="@+id/rent4text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="Location: Matunga"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rent4owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="Owner : Sweta Menda \t \t \t\t\Contact : 45459876354"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/khushipg5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/pg5" />
+
+            <TextView
+                android:id="@+id/rent5text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="Location: Dadar"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rent5owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="Owner : Ajay Gehani \t \t \t\t\t\tContact : 8999573726"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/nvmum2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/navipg2" />
+
+            <TextView
+                android:id="@+id/mumpg2text"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginStart="15sp"
+                android:text="Location: Navi Mumbai"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rentnvmum3owner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="15sp"
+                android:text="Owner : Arham Kazi \t\t\tContact : 8830127843"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/andh1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/andheripg2" />
+
+
+            <TextView
+                android:id="@+id/rentandhtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:text="\nLocation: Andheri"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rentandheri2owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:text="\nOwner : Divesh Kukreja \t\t\tContact : 9876504431"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/mum3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/navipg3" />
+
+            <TextView
+                android:id="@+id/rentnv4text"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginStart="15sp"
+                android:text="Location: Navi Mumbai"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rentmum4owner"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginStart="15sp"
+                android:text="Owner : Ansh Pahuja \t\t\t\tContact : 7764510986"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/khushipg6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/pg6" />
+
+            <TextView
+                android:id="@+id/rent6text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="Location: Navi Mumbai"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pgcontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="Owner : Amit Gupta \t \t \t\t\t\tContact : 45459876354"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/andh2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/andheripg3" />
+
+            <TextView
+                android:id="@+id/mump2text"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginStart="15sp"
+                android:text="Location: Andheri"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rentandheri3owner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="15sp"
+                android:text="Owner : Bhavik Gandhi \t\t\tContact : 8830127843"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/dadar5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/dadarpg1" />
+
+            <TextView
+                android:id="@+id/rentdadar6text"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginStart="15sp"
+                android:text="Location: Dadar"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rentdadar6owner"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginStart="15sp"
+                android:text="Owner : Ajay Ahuja \t \t \t\t\t\tContact : 9900554433"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

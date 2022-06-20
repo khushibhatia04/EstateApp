@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14375" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_andheri.xml" value="0.25416666666666665" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_andheripg.xml" value="0.25416666666666665" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_bandra.xml" value="0.25416666666666665" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_bandrapg.xml" value="0.24010416666666667" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_dadar.xml" value="0.25416666666666665" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_dadar_pg.xml" value="0.19718309859154928" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_main2.xml" value="0.25364583333333335" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_malad.xml" value="0.25416666666666665" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_mlalad_pg.xml" value="0.1" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_mumbai.xml" value="0.25416666666666665" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_mumbaipg.xml" value="0.25416666666666665" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_navi_mumbai.xml" value="0.25416666666666665" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_navi_mumbai_pg.xml" value="0.25416666666666665" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_otpcheck.xml" value="0.25416666666666665" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_pg_page.xml" value="0.19077404222048475" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_pg_page2.xml" value="0.1" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_registration_page.xml" value="0.264" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/activity_rent_page.xml" value="0.1359710225689607" />
+        <entry key="..\:/College/Android/multiscreenexplicit/app/src/main/res/layout/content_pg_page.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

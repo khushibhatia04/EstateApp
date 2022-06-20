@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.multiscreenexplicit" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Estate App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Multiscreenexplicit" >
+        <activity
+            android:name=".otpcheck"
+            android:exported="false" />
+        <activity
+            android:name=".Dadar_Pg"
+            android:exported="false" />
+        <activity
+            android:name=".Mlalad_Pg"
+            android:exported="false" />
+        <activity
+            android:name=".Navi_mumbai_Pg"
+            android:exported="false" />
+        <activity
+            android:name=".mumbaipg"
+            android:exported="false" />
+        <activity
+            android:name=".bandrapg"
+            android:exported="false" />
+        <activity
+            android:name=".andheripg"
+            android:exported="false" />
+        <activity
+            android:name=".Malad"
+            android:exported="false" />
+        <activity
+            android:name=".Bandra"
+            android:exported="false" />
+        <activity
+            android:name=".Andheri"
+            android:exported="false" />
+        <activity
+            android:name=".Navi_Mumbai"
+            android:exported="false" />
+        <activity
+            android:name=".Mumbai"
+            android:exported="false" />
+        <activity
+            android:name=".Pg_Page"
+            android:exported="false" />
+        <activity
+            android:name=".dadar"
+            android:exported="false" />
+        <activity
+            android:name=".rent_page"
+            android:exported="false" />
+        <activity
+            android:name=".registration_page"
+            android:label="Registration Page"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="Options"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

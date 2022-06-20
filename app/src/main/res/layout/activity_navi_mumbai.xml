@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/combotext1"
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="35sp"
+                android:layout_marginStart="25sp"
+                android:text="Location: Navi Mumbai"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/navi1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="2dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/navimumbai1" />
+
+            <TextView
+                android:id="@+id/rentnavi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:text="Location: Navi Mumbai"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rentnavi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:text="Owner : Vanshika Kaur \t \t \t\tContact: 9965439012"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/navi2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/navimumbai2" />
+
+
+            <TextView
+                android:id="@+id/rent1text"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginStart="15sp"
+                android:text="\nLocation: Navi Mumbai"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rentnavi2owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:text="\nOwner : Harsh Makhija \t\t\tContact : 7743219870"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/rent1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/rent1" />
+
+            <TextView
+                android:id="@+id/rent1navi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:text="\nLocation: Navi Mumbai"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rent1owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:text="\nOwner : Esha Ahuja \t\t\t\t Contact: 6032541098"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="125sp"
+                android:onClick="back"
+                android:text="Back" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/combotext1"
+                android:layout_width="293dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="25sp"
+                android:layout_marginStart="25sp"
+                android:text="Location: Malad"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/malad1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/malad1" />
+
+            <TextView
+                android:id="@+id/rentmalad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="Location: Malad"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rent5maladowner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:text="Owner : Komal Singh  \t\t\t\tContact : 9890765412"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/malad2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/malad2" />
+
+
+            <TextView
+                android:id="@+id/malad2text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:text="\nLocation: Malad"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rentdadar2owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:text="\nOwner : Manish Bhatia \t\t\t\tContact : 9876504431"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/malad3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/malad3" />
+
+            <TextView
+                android:id="@+id/rentmalad3text"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginStart="15sp"
+                android:text="Location: Malad"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rentmalad3owner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="15sp"
+                android:text="Owner : Neeta Narang \t\t\tContact : 9945412783"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/Malad4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/malad4" />
+
+            <TextView
+                android:id="@+id/rentMalad4text"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginStart="15sp"
+                android:text="Location: Malad"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rentmalad4owner"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginStart="15sp"
+                android:text="Owner : Arun Dave \t  \t\t\t\tContact : 8888510986"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="125sp"
+                android:onClick="back"
+                android:text="Back" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

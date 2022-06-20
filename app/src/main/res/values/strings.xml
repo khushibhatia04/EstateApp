@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">EstateApp</string>
+    <string name="title_activity_pg_page">pg_page</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="country_prompt">P.O Number</string>
+
+    <string-array name="cities">
+        <item> Select from the following </item>
+        <item> Mumbai </item>
+        <item>Andheri</item>
+        <item>Dadar</item>
+        <item>Navi Mumbai</item>
+        <item>Bandra</item>
+        <item>Malad</item>
+    </string-array>
+
+    <string name="EstateApp">OTPAuthentication</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_sign_in">Verify and Sign In</string>
+    <string name="sign_out">sign out</string>
+</resources>
